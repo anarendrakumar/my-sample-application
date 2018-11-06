@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "MySampleApplication",
+    "packageName": "com.naren.jhipster",
+    "packageFolder": "com/naren/jhipster",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "oracle",
+    "prodDatabaseType": "oracle",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.6.1",
+    "jwtSecretKey": "ZWY3MTdkZWQyNmNkNTgzYWRkMWQxMjdjYzkzOGU3NDg3MTYwOTk3MmI0MDMxNDQ0N2Q0OGE0M2NjZDhkOTRjOTZiOGRiYjJjYTlmYzc4MDM1YjI5OTk3MzdkMWEwZjM1MjBiYWMyMTAwNzUzMTI4ODcwODg5ZjQ4NTdmOWZhNjU=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "anarendrakumar",
+  "repository-name": "my-sample-application"
+}
